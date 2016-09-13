@@ -1,0 +1,35 @@
+#slideShowContainer{
+	top:100px;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+#slideShowContainer img{
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	z-index: 2;
+}
+#sliderLinks {
+	position: relative;
+	display: block;
+	height:50px;
+	margin-left: 100px;
+
+}
+#sliderLinks li{
+	margin: 0 6px;
+	position: relative;
+	display: inline-block;
+	line-height: 20px;
+}
+.preventJump{
+	position: absolute;
+	bottom: 0;
+}
+input[type="button"].sizeText {
+		width: 2em;
+		display: inline-block;
+		font-size: 1em;
+		margin: 5px;
+}	
